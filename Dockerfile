@@ -1,7 +1,5 @@
 FROM node
 WORKDIR /bot
-COPY package.json /bot/
-COPY ./src /bot/src
-COPY .env /bot/.env
+COPY . /bot/
 RUN npm i
-CMD ["npm run ./src/index.js"]
+CMD ["npm run start"]
