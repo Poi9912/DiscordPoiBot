@@ -13,6 +13,19 @@ This project have the base code for an interactive discord bot for your personal
 
 You'll need [Node.js](https://nodejs.org/) v17+ to run.
 
+After you have installed Node.js create an .env file.
+
+```.env
+TOKEN=Your bot token
+ENVIROMENT=dev for development pdn for production
+PREFIX=your prefix
+SERVER=localhost
+DOCKER=TRUE
+OWNER=your discord user id
+TESTSERVER=discord server id for testing porpuses only
+
+```
+
 Install the dependencies and devDependencies and start the bot.
 
 ```sh
