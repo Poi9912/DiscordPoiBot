@@ -1,5 +1,5 @@
 FROM node
-WORKDIR /bot
-COPY . /bot/
+WORKDIR /app
+COPY . .
 RUN npm i
-CMD ["npm run start"]
+CMD ["node", "./src/index.js"]
